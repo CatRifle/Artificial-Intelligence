@@ -1,0 +1,7 @@
+task, t1 2
+task, t2 2
+constraint, t2 same-day t1
+domain, t1 mon
+domain, t2 starts-after mon 3pm
+domain, t1 ends-by mon 11am 10
+domain, t2 ends-by mon 1pm 10
